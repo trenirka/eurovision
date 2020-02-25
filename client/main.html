@@ -63,15 +63,13 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Povezave</a>
       </li>
-      <li class="nav-item">
-        {{> loginButtons}}
-      </li>
     </ul>
+    {{> loginButtons}}
   </nav>
 
   <div class="jumbotron text-center">
-    <h1>My First Bootstrap Page</h1>
-    <p>Resize this responsive page to see the effect!</p>
+    <h1>Slovenski izbor EMA 2020</h1>
+    <p>Predizbor za evrovizijo 2020 v Rotteradmu</p>
   </div>
 
   {{> yield}}
@@ -90,6 +88,11 @@
 </template>
 
 <template name="home">
+  <div class="jumbotron text-center">
+    <!-- <h1>Slika iz prireditve EMA 2020</h1> -->
+    <img src="\public\pano_ema.jpg" alt="Slika iz prireditve EMA 2020">
+    <p>Slika iz prireditve EMA 2020</p>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
