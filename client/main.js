@@ -16,3 +16,15 @@ Router.route('/', function () {
 Router.route('/udelezenci', function () {
   this.render('udelezenci');
 });
+
+Router.route('/evrovizija2020', function () {
+  this.render('evrovizija2020');
+});
+
+Router.route('/povezave', function () {
+  this.render('povezave');
+});
+
+Router.route('/galerija', function () {
+  this.render('galerija');
+});

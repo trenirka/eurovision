@@ -27,7 +27,7 @@
 <!-- <html lang="en"> -->
 
 <head>
-  <title>Bootstrap Example</title>
+  <title>Evrovizija 2020</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -35,6 +35,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -55,13 +56,13 @@
         <a class="nav-link" href="/udelezenci">Letošnji udeleženci</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Evrovizija 2020</a>
+        <a class="nav-link" href="/evrovizija2020">Evrovizija 2020</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Galerija</a>
+        <a class="nav-link" href="/galerija">Galerija</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Povezave</a>
+        <a class="nav-link" href="/povezave">Povezave</a>
       </li>
     </ul>
     {{> loginButtons}}
@@ -69,7 +70,7 @@
 
   <div class="jumbotron text-center">
     <h1>Slovenski izbor EMA 2020</h1>
-    <p>Predizbor za evrovizijo 2020 v Rotteradmu</p>
+    <p>Predizbor za evrovizijo 2020 v Rotterdamu</p>
   </div>
 
   {{> yield}}
@@ -91,21 +92,17 @@
   <img src="https://lh3.googleusercontent.com/F0RT3tpnaL55zTEOG1d_nWiJiQH7KhOgtial1h_gnxLSmRLGBU47CY_DwU7lUV_EEpnbb-VofE-PVkXaQG7kLFjxEUnLGOVLwDrt8ugHom5FEo6xvGuwxOM2TQoIuEby6edjji1g20oaNmnN87Nt3E-Z5EBRMVYfPERWg-YZVV0ktdrrhD2F3uCsL2q1SzQSZoHYb3xpT7QSZGLnRmobXP0SWIWjavYZHWlHYruONScZ56xQ5Kj9NWxLwFhoHzbC1IxePmVHga1QNENj1Ui3i8XTxNZ3oLSgU9bYzG74EAB7MZAdGlEySpr3Rr4hppySbu_gcyK3ZG0REgzxgtelkp0-spyxG5Kp6K0X_IgJcC-kLaat2ud_9PuuPFPaI-sDRksr2dcJnxHCFlly_JDB0-0sg1s_Fxu695LQKTZr20dkjrnrtnAj0nmh-pzXzJax4WxbX7m-ihpPQ1EcHYVInmhmly4mNfHllWCS_cU2LRRTJuLYseJUJNJ75XH3CfEraxmORCstWCdjjIN0WRFE-u4dwMkGuv0mgw4kPMdGKj48oOAWPIb0WCFCxw22hJ_uzG3pQsyX-mTJ3iuIPdgN7fXuK4nUMgwmf8QkidiRFhHfxrRxU9Trgh8rVdeqILZ3fezSotGTJxQlYzaO4TxSceD2SZH0u2sG46EUtZoHGqEEnCpy=w1920-h367-no" alt="Slika iz prireditve EMA 2020" target="_blank">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <div class="col-sm-6">
+        <h3>Ema Freš</h3>
+        <p>novinci: izvajalci, ki na dan 1. februarja 2020 še ne bodo dopolnili 26 let in ki do tega dne ne bodo komercialno[a] izdali več kot 3 avtorskih skladb</p>
+        
       </div>
-      <div class="col-sm-4">
-        <h3>Column 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <div class="col-sm-6">
+        <h3>Ema 2020</h3>
+        <p>uveljavljeni izvajalci: izvajalci, ki so na dan 1. februarja 2020 komercialno izdali več kot 3 avtorske skladbe</p>
+        
       </div>
-      <div class="col-sm-4">
-        <h3>Column 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
+      
     </div>
   </div>
 </template>
@@ -126,10 +123,10 @@
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Mvq1a50OH9k" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Mvq1a50OH9k" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NxIHfjzziHU" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -138,6 +135,43 @@
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FupEm4VHL04" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Wq2WUIaGi0g" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/D0V9eiqcWWg" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qoum_pJC0ZM" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/p5-nWam2dLw" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3MjKUVUgqQs" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mwC7EfQXKzg" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NpoAGg7J78U" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/e10yFj_Yrxk" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Dp_174TK_OY" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
     </div>
 
     <!-- Left and right controls -->
@@ -148,6 +182,115 @@
       <span class="carousel-control-next-icon"></span>
     </a>
 
+  </div>
+</template>
+
+<template name="galerija">
+  <div class="container">
+  
+    <div class="row text-center text-lg-left">
+  
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637678_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637661_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637677_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637665_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637666_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637667_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637668_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637669_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637670_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/20/65637664_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2019/12/10/65631086_fp-md.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="https://img.rtvslo.si/_up/upload/2020/02/11/65655080_fp-md.jpg" alt="">
+            </a>
+      </div>
+    </div>
+  
+  </div>
+</template>
+
+<template name="evrovizija2020">
+  <h1>Evrovizija 2020</h1>
+  <p>Izbor za Pesem Evrovizije bo leta 2020 potekal v Rotterdamu. Sprva se je za gostiteljstvo potegovalo devet nizozemskih mest: Amsterdam, Arnhem, Breda, 's-Hertogenbosch, Haag, Leeuwarden, Maastricht, Rotterdam in Utrecht.</p> 
+  <p>Kmalu je zaradi raznih razlogov, večinoma vezanih na namestitvene in prostorske kapacitete, odstopilo šest mest, ostali so le Rotterdam, Maastricht ter glavno mesto Amsterdam. Slednji je tekom poletja 2019 umaknil svojo kandidaturo, češ, da bi bila še ena velika prireditev preveč za mesto in da je le-to ne potrebuje. 30. avgusta 2019 je EBU sporočila, da bo 65. Pesem Evrovizije gostilo mesto Rotterdam, v areni Ahoy.</p>
+  <p>Rotterdam je sicer drugo največje mesto na Nizozemskem. Šteje 644.527 prebivalcev. Znano je po svojem pristanišču, ki je največje v Evropi in drugo na svetu po številu tovora. Dvorana Ahoy, ki je največja pokrita arena v mestu, je bila zgrajena leta 1970, izkušnje z Evrovizijo pa že ima. Leta 2007 je namreč gostila otroško verzijo Evrovizije.</p>
+</template>
+
+<template name="povezave">
+  <div class="container">      
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Povezava</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://www.escxtra.com/" class="btn btn-info" role="button">EscExtra</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://wiwibloggs.com/" class="btn btn-info" role="button">Wiwi Blogs</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://eurovisionworld.com/" class="btn btn-info" role="button">Eurovision World</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.schlagerblog.blogspot.com/" class="btn btn-info" role="button">Schlager Boys</a></td>
+        </tr>
+        <tr>
+          <td><a href="hhttp://esctoday.com/" class="btn btn-info" role="button">ESC Today</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://escbubble.com/" class="btn btn-info" role="button">ESC Bubble</a></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
