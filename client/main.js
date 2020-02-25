@@ -5,20 +5,14 @@ import './main.html';
 import 'bootstrap';
 import popper from 'popper.js';
 
-Template.hello.onCreated(function helloOnCreated() {
-  // counter starts at 0
-  this.counter = new ReactiveVar(0);
+Router.configure({
+  layoutTemplate: 'main'
 });
 
-Template.hello.helpers({
-  counter() {
-    return Template.instance().counter.get();
-  },
+Router.route('/', function () {
+  this.render('home');
 });
 
-Template.hello.events({
-  'click button'(event, instance) {
-    // increment the counter when button is clicked
-    instance.counter.set(instance.counter.get() + 1);
-  },
+Router.route('/udelezenci', function () {
+  this.render('udelezenci');
 });
